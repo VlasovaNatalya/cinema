@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
 * {
     margin: 0 auto;
     padding: 0 auto;
@@ -74,5 +76,9 @@ header {
     width: 298.67px;
     height: 300px;
     border-radius: 8px;
+}
+
+h2{
+    font-family: Inter;    
 }
 
