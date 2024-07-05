@@ -56,10 +56,15 @@ header {
     margin-bottom: 7.57px;
 }
 
+.main-container{
+    margin-top: 36.86px;
+    width: 1440;
+    height: 620px;
+}
+
 .filmscontainer {
     max-width: 960px;
     height: 500px;
-    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -70,3 +75,4 @@ header {
     height: 300px;
     border-radius: 8px;
 }
+
