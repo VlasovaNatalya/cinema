@@ -5,13 +5,7 @@
     padding: 0 auto;
 }
 
-body {
-    max-width: 1440px;
-    max-height: 740px;
-}
-
 header {
-    max-width: 1440px;
     max-height: 83.14px;
     border-bottom: 1px solid #CED2DA;
 }
@@ -75,10 +69,11 @@ header {
 .filmscontainer>img {
     width: 298.67px;
     height: 300px;
+    gap: 16px;
     border-radius: 8px;
 }
 
 h2{
-    font-family: Inter;    
+    font-family: Inter;
 }
 
