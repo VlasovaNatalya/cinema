@@ -9,8 +9,8 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 ;
 }
 
 body{
@@ -112,7 +112,6 @@ header {
 }
 
 .stars>img{
-    display: идщсл;
     max-width: 24px;
     max-height: 24px;
 }
@@ -127,4 +126,96 @@ h2{
     text-align: left;
     font-weight: 700;
     margin-bottom: 16px;
+}
+
+/* -------film1--------- */
+
+.textback{
+    font-family: 'Inter';
+    font-size: 16;
+    font-weight: 500;
+    color: #637083;
+    margin: 24px 240px;
+}
+
+.info{
+    margin: 0 240px;
+}
+
+.film-information{
+    display: flex;
+    margin-bottom: 43px;
+}
+
+.text-info{
+    margin-left: 30px;
+}
+
+.text-info>p{
+    font-family: 'Inter';
+    font-size: 14;
+    font-weight: 400;
+    color: #637083;
+    margin-bottom: 16px
+}
+
+h1{
+    font-family: 'Inter';
+}
+
+.film-information>img{
+    width: 299px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.other-information{
+    max-width: 928px;
+    max-height: 888px;
+}
+
+
+
+.days button:not(:last-child){
+    border-right: none; 
+}
+
+.days .button:hover { 
+    background-color: #fff; 
+    color: #141C24;
+    border-radius: 16px;
+}
+
+/* .days>.button+.button::before{
+    content:"";
+    height:24px;
+    width:1px;
+    background-color:#CED2DA;
+    display:inline-flex;
+    position: absolute;
+
+}  */
+
+.days{
+    max-width: 731px;
+    max-height: 64px;
+    display: inline-flex;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #F3F4F6;
+    margin-top: 24px;
+    background-color: #F3F4F6;
+}
+
+.days>.button{
+    padding: 10px 16px;       
+    background-color: #F3F4F6;
+    border: none; 
+    border-right: 1px solid #CED2DA; 
+    overflow: hidden;
+    color: #637083; 
+    text-align: center; 
+    font-size: 14px; 
+    font-family: 'Inter';
+    cursor: pointer; 
 }
