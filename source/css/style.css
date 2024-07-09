@@ -153,7 +153,7 @@ h2{
 
 .text-info>p{
     font-family: 'Inter';
-    font-size: 14;
+    font-size: 14px;
     font-weight: 400;
     color: #637083;
     margin-bottom: 16px
@@ -174,8 +174,6 @@ h1{
     max-height: 888px;
 }
 
-
-
 .days button:not(:last-child){
     border-right: none; 
 }
@@ -183,18 +181,8 @@ h1{
 .days .button:hover { 
     background-color: #fff; 
     color: #141C24;
-    border-radius: 16px;
+    border-radius: 14px;
 }
-
-/* .days>.button+.button::before{
-    content:"";
-    height:24px;
-    width:1px;
-    background-color:#CED2DA;
-    display:inline-flex;
-    position: absolute;
-
-}  */
 
 .days{
     max-width: 731px;
@@ -203,7 +191,7 @@ h1{
     border-radius: 16px;
     overflow: hidden;
     border: 1px solid #F3F4F6;
-    margin-top: 24px;
+    margin: 24px 0;
     background-color: #F3F4F6;
 }
 
@@ -211,7 +199,6 @@ h1{
     padding: 10px 16px;       
     background-color: #F3F4F6;
     border: none; 
-    border-right: 1px solid #CED2DA; 
     overflow: hidden;
     color: #637083; 
     text-align: center; 
@@ -219,3 +206,111 @@ h1{
     font-family: 'Inter';
     cursor: pointer; 
 }
+
+.schedule>p{
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    color: #344051;
+    margin-bottom: 16px;
+}
+
+.schedule{
+    margin-bottom: 24px;
+}
+
+.room{
+    max-width: 377px;
+    max-height: 40px;
+    margin-bottom: 24px;
+}
+
+.room .button{
+    padding: 10px 16px;       
+    background-color: #fff;
+    border: 1px solid #CED2DA;
+    border-radius: 14px;
+    gap: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.room .button:hover { 
+    background-color: #97A1AF; 
+    color: #fff;
+    border-radius: 14px;
+    border: 1px solid #97A1AF;
+}
+
+.screen{
+    width: 409px;
+    height: 28px;
+    margin: 24px 0;
+    border-bottom: 4px solid #CED2DA;
+}
+
+.screen>p{
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    color: #344051;
+    text-align: center;
+}
+
+.place>p{
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    color: #344051;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.seat{
+    background-color: #712D9C;
+    width: 16px;
+    height: 16px;
+    margin: 12px 13px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    color: #712D9C;
+}
+
+.seat.sold{
+    background-color: #CED2DA;
+    color: #CED2DA;
+}
+
+.seats>.row{
+    display: flex;
+    margin-right: 32px;
+}
+
+.row>p{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    color: #141C24;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.seat:not(.sold):hover{
+    background-color: #712D9C;
+    width: 8px;
+    height: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px 16px;
+    margin: 0;
+    margin: 6,98px 5,75px;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
